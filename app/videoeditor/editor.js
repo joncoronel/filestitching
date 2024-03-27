@@ -113,6 +113,8 @@ export default function Editor() {
       crfValue,
       "-preset",
       "ultrafast",
+      "-r",
+      "24",
       "-s",
       resolution,
       "compressed.mp4",
